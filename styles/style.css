@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+/* -------------------------------
+              Head 
+----------------------------------*/
+
+/* ------------Nav Bar ----------- */
+
+header{
+   background: rgba(255, 144, 14, 0.1);
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    justify-content: space-around;
+
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 40px;
+    color: #131313;
+    transition-duration: 0.4s
+}
+.logo:hover{
+    color: #FF900E;;
+ }
+
+.menu ul {
+    display: flex;
+    gap: 34px;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+    transition-duration: 0.4s
+}
+.menu ul li a:hover{
+    color: #FF900E;
+    
+  
+}
+
+/*----------- Head Info and Banner------------ */
+.head{
+    text-align: center;
+}
+.head-info{
+    margin: 0px 229px 50px 229px;
+}
+.head-title{
+font-weight: 700;
+font-size: 50px;
+line-height: 45px;
+color: #131313;
+margin-bottom: 20px;
+}
+.head-info p {
+font-weight: 400;
+font-size: 15px;
+line-height: 26px;
+color: #727272;
+padding-left: 400px;
+padding-right: 400px;
+margin-bottom: 25px;
+}
+.btn-primary{
+width: 150px;
+height: 54px;
+background: #FF900E;
+border-radius: 8px;
+border: none;
+color: white;
+font-weight: 600;
+font-size: 16px;
+padding: 15px;
+transition-duration: 0.4s
+}
+.btn-primary:hover{
+    background-color: white;
+    color: #FF900E;
+    border: 1px solid #FF900E;
+  
+
+}
+.head-banner img{
+    width: 70vw;
+    margin-bottom: 45px;
+}
+
+/* ----------------------------
+    Quick list of Our Features 
+    -------------------------*/
+    .features{
+        display: flex;
+        gap: 93px;
+        margin: 85px 200px 130px 350px;
+        align-items: center;
+    }
+    .feature-images{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 24px;
+        grid-row-gap: 24px;
+    }
+    .feature-img img{
+        width: 242px;
+height: 242px;
+border-radius: 8px;
+
+    }
+.feature-title{
+    font-weight: 600;
+font-size: 45px;
+
+}    
+.gray-title{
+    color: #727272;
+}
+.yello-title{
+    color: #FF900E;
+}
+.feature-des{
+    width: 507px;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+color: #727272;
+margin-bottom: 34px;
+margin-top: 24px;
+
+}
+
+/*-----------------------------------
+   Features you will love & enjoy
+------------------------------------- */
+
+.enjoy-feature{
+    display: flex;
+    gap: 200px;
+    margin: 0px 0px 100px 240px;
+}
+.enjoy-title{
+/* width: 5px; */
+border-left: solid 5px #FF900E;
+}
+.enjoy-title h3{
+    width: 450px;
+    font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+margin-left: 21px;
+margin-bottom: 24px;
+margin-top: 24px;
+}
+.enjoy-section p{
+    width: 486px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+margin-bottom: 30px;
+}
+.enjoy-info{
+width: 506px;
+padding: 30px 30px 10px 30px;
+margin-bottom: 20px;
+box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.106);
+border-radius: 8px;
+
+}
+.enjoy-banner img{
+    width:708px;
+height: 982px;
+border-radius: 8px;
+}
+.exp-btn{
+    width: 100px;
+    text-align: center;
+    margin-top: -285px;
+     
+    margin-left: 900px;   
+}
+.exp-btn button{
+    width: 342px;
+height: 200px;
+background: #FF900E;
+border-radius: 8px;
+border: none;
+text-align: center;
+transition-duration: 0.8s;
+
+}
+.exp-btn button:hover{
+    transform: scale(1.2);
+
+}
+
+.exp-btn button h3{
+    font-weight: 700;
+font-size: 65px;
+color: #FFFFFF;
+}
+.exp-btn button p{
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
+    
+}
+
+/* ---------------------
+      Some Facts
+------------------------*/
+
+.fact-section{
+    margin: 130px 290px 180px 240px;
+}
+.fact-title{
+
+    font-weight: 700;
+font-size: 45px;
+margin-bottom: 24px;
+}
+.fact-des{
+     width: auto;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+margin-bottom: 100px;
+}
+.facts{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 125px;
+    margin-left: 50px;
+}
+.fact-info{
+    width: 241.83px;
+height: 241.83px;
+border: 2px solid #FF900E;
+border-radius: 8px;
+text-align: center;
+transition-duration: 0.4s;
+
+}
+.fact-info:hover{
+   color: #FF900E;
+    transform: scale(1.2);
+}
+
+
+.fact-info h3{
+font-weight: 600;
+font-size: 45px;
+color: #424242;
+}
+.fact-info p{
+font-weight: 600;
+font-size: 20px;
+color: #727272;
+}
+.fact-info img{
+    margin-top: 47px;
+}
+/* 
+<!------------------
+    Our Sponspors 
+--------------------> */
+.sponsor-section{
+   text-align: center;
+}
+.sponsor-title h3{
+font-weight: 700;
+font-size: 45px;
+margin-bottom: 24px;
+}
+.sponsor-title p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    
+
+}
+
+.sponsors{
+    display: grid;
+    
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 155px;
+    
+    margin:50px 240px 130px 240px;
+}
+.sponsors div img{
+    filter: grayscale(100%);
+    transition-duration: 0.5s;
+}
+.sponsors div img:hover{
+    filter: none;
+    transform: scale(1.2);
+}
+
+
+/* --------contact us --------- */
+
+footer{
+    background: #FFF4E7;
+}
+.contact{
+    align-items: center;
+}
+.contact .social-title{
+    text-align: left;
+}
+
+.contact {
+    display: flex;
+   
+    padding: 110px 300px;
+    gap: 300px;
+   
+
+}
+.social{
+    
+ margin-left: 117px;
+    
+
+}
+
+.social-title {
+    font-weight: 700;
+font-size: 45px;
+margin-bottom: 24px;
+}
+
+.social-description {
+  
+    margin: 20px 0px 30px 0px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    
+
+}
+.social-icon{
+    margin: 10px 10px 0px 0px;
+}
+
+
+.form-title{
+    font-weight: 700;
+font-size: 35px;
+line-height: 48px;
+}
+.form input,textarea{ 
+
+    border: 0ch;
+    margin-top: 24px;
+
+
+}
+input{
+    padding: 20px;
+    width: 461px;
+    height: 34px;
+    border-radius: 8px;
+}
+textarea{
+    padding: 20px;
+    width: 461px;
+height: 180px;
+border-radius: 8px;
+margin-bottom: 20px;
+
+}
+
+/*----------------- 
+     copy-right
+-----------------> */
+
+
+
+.copy-right div{
+    width: 1440px auto;
+    height: 50px;
+    text-align: center;
+    
+    border-radius: 8px;
+    padding-top: 30px;
+}
+.copy-right div p{
+    width: auto;
+} 

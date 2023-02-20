@@ -1,0 +1,408 @@
+/*-----------------------------
+        RESPONSIVE STYLES
+ ------------------------------- */
+
+ /* -----------------------------
+            MOBILE VIEW 
+ --------------------------------- */
+
+ /* --------------
+        Header 
+ -------------- */
+
+
+ @media only screen and (max-width:688px) {
+   .nav{
+    width: cover;
+    flex-direction: column;
+   
+    
+   }
+   .menu{
+    margin-right: 30px;
+   }
+   .logo{
+    margin-bottom: 10px;
+    font-size: 20px;
+    
+   }
+ 
+ .menu ul li a{
+    font-size: 14px;
+ }
+ .head-info{
+    margin: 0px;
+ }
+
+ .head-title{
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 0px;
+
+ }
+ .head-info p {
+    font-size: 12px;
+    line-height: 20px;
+    color: #727272;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.btn button{
+    margin-bottom: 20px;
+}
+
+
+
+    /* ------------------------------
+         Quick list of Our Features 
+        --------------------------- */
+    .features{
+        flex-direction: column;
+        display: flex;
+    gap: 0px;
+    margin: 50px 20px 50px 20px;
+
+    }
+    .feature-images{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .feature-info{
+        margin-top: 30px;
+        width: 100%;
+
+    }
+    .feature-title{
+        font-size: 35px;
+    }
+    .feature-des{
+        font-size: 16px;
+        width: auto;
+    }
+
+
+  
+/*-----------------------------------
+   Features you will love & enjoy
+------------------------------------- */
+.enjoy-feature{
+    flex-direction: column;
+    gap: 0px;
+    margin: 15px;
+}
+.enjoy-head{
+    margin-top: 30px;
+    width: 100%;
+
+}
+.enjoy-title h3{
+    font-size: 35px;
+    width: auto;
+}
+.enjoy-head p{
+    font-size: 16px;
+    width: auto;
+}
+.enjoy-items{
+    padding: 10px 15px 10px 0px;
+    margin-right: 30px;
+}
+.enjoy-info{
+    width: 100%;
+  padding-right: 15px;
+ 
+}
+.enjoy-info p, h3{
+    width: 100%;
+    
+
+}
+.enjoy-info h3{
+    margin-bottom:20px;
+}
+.enjoy-banner img{
+  
+    width: 100%;
+    height: 100%;
+}
+.exp-btn{
+    width: auto;
+    margin: 10px;
+    padding: 10px;
+}
+.fact-section{
+    margin: 30px 10px 10px 10px;
+    padding: 10px;
+}
+.fact-des{
+    margin-bottom: 30px;
+}
+.facts{
+   
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 40px;
+    margin-bottom: 30px;
+}
+
+/* <!------------------
+    Our Sponspors 
+--------------------> */
+.sponsor-title{
+    padding: 10px;
+}
+
+.sponsors{
+
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 30px;
+    margin: 40px 20px 30px 20px;
+   
+}
+
+/* <!------ contact us------- --> */
+
+.contact{
+    display: flex;
+    padding: 20px 20px;
+    gap: 30px;
+    flex-direction: column;
+}
+.social {
+    margin-left: 0px;
+}
+form {
+   width: 100%;
+}
+input, textarea{
+    width: 85vw;
+    padding: 10px;
+}
+textarea{
+    height: 100px;
+}
+/* ----------------- 
+    copy-right
+-----------------> */
+.copy-right{
+    padding: 20px 40px 30px 40px;
+  
+}
+.copy-right div {
+    padding: 10px;
+
+}
+
+
+}
+
+/*-------------------
+        TAB 
+-----------------------*/
+
+@media only screen and (min-width:689px) and (max-width:1080px) {
+    .nav{
+     width: cover;
+   
+    
+     
+    }
+    .menu{
+     margin-right: 30px;
+    }
+    .logo{
+     margin-bottom: 10px;
+     font-size: 20px;
+     
+    }
+  
+  .menu ul li a{
+     font-size: 14px;
+  }
+  .head-info{
+     margin: 0px;
+    
+  }
+ 
+  .head-title{
+     font-size: 32px;
+     line-height: 40px;
+     margin-bottom: 0px;
+ 
+  }
+  .head-info p {
+   
+     font-size: 12px;
+     line-height: 20px;
+     color: #727272;
+     padding-left: 200px;
+     padding-right: 200px;
+     margin-bottom: 15px;
+     margin-top: 15px;
+ }
+ .btn button{
+     margin-bottom: 20px;
+ }
+ 
+ 
+ 
+     /* ------------------------------
+          Quick list of Our Features 
+         --------------------------- */
+     .features{
+         flex-direction: column;
+         display: flex;
+     gap: 0px;
+     margin: 50px 20px 50px 20px;
+ 
+     }
+     .feature-images{
+         grid-template-columns: repeat(2, 1fr);
+         
+     }
+     .feature-info{
+        text-align: center;
+         margin-top: 30px;
+         width: 100%;
+ 
+     }
+     .feature-title{
+         font-size: 35px;
+     }
+     .feature-des{
+         font-size: 16px;
+        width: auto;
+        margin-right: 100px;
+        margin-left: 100px;
+     }
+ 
+ 
+   
+ /*-----------------------------------
+    Features you will love & enjoy
+ ------------------------------------- */
+ .enjoy-feature{
+     flex-direction: column;
+     gap: 0px;
+     margin: 65px;
+ }
+ .enjoy-head{
+     margin-top: 30px;
+     width: 100%;
+ 
+ }
+ .enjoy-title h3{
+     font-size: 35px;
+     width: auto;
+ }
+ .enjoy-head p{
+     font-size: 16px;
+     width: auto;
+ 
+     padding-right: 200px;
+
+ }
+ .enjoy-items{
+     padding: 10px 15px 10px 0px;
+     margin-right: 30px;
+ }
+ .enjoy-info{
+     width: 100%;
+   padding-right: 15px;
+  
+ }
+ .enjoy-info p, h3{
+     width: 100%;
+     
+ 
+ }
+ .enjoy-info h3{
+     margin-bottom:20px;
+ }
+ .enjoy-banner img{
+   
+     width: 100%;
+     height: 100%;
+ }
+ .exp-btn{
+     width: auto;
+     margin: 10px;
+     padding: 10px;
+ }
+
+ /*---------------- 
+    Some Facts
+ --------------- */
+ .fact-section{
+     margin: 30px 10px 10px 10px;
+     padding: 50px;
+ }
+ .fact-des{
+     margin-bottom: 30px;
+ }
+ .facts{
+    
+     grid-template-columns: repeat(2, 1fr);
+     row-gap: 40px;
+     column-gap: 30px;
+     margin-bottom: 30px;
+     padding: 30px;
+ }
+
+ /* <!------------------
+     Our Sponspors 
+ --------------------> */
+ .sponsor-title{
+     padding: 10px;
+ }
+ 
+ .sponsors{
+   grid-template-columns: repeat(1, 1fr);
+ 
+     grid-row-gap: 30px;
+ 
+    
+ }
+ 
+ /* <!------ contact us------- --> */
+ 
+ .contact{
+    
+     display: flex;
+     padding: 50px 50px;
+     gap: 30px;
+     flex-direction: column;
+    
+ }
+
+ .social {
+     margin-left: 0px;
+ }
+ form {
+    width: 100%;
+ }
+ input, textarea{
+     width: 85vw;
+     padding: 10px;
+ }
+ textarea{
+     height: 100px;
+ }
+ /* ----------------- 
+     copy-right
+ -----------------> */
+ .copy-right{
+     padding: 20px 40px 30px 40px;
+   
+ }
+ .copy-right div {
+     padding: 10px;
+ 
+ }
+ 
+ 
+ }
+
+
+
